@@ -1,0 +1,20 @@
+{
+  "name": "webhook-executer",
+  "version": "1.0.0",
+  "description": "Webhook listener to execute contiunous deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "webhook"
+  ],
+  "author": "Bhacaz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "child_process": "^1.0.2",
+    "express": "^4.16.3"
+  }
+}
